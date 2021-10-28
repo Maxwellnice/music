@@ -28,6 +28,7 @@ body{
 }
 .header__popular {
     color:black;
+    display: flex;
 }
 audio{
     border-radius: 10%;
