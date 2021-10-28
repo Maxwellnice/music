@@ -21,20 +21,12 @@ body{
 }
 .header{
     display: flex;
-    font-size: 25px;    
+    font-size: 18px;    
 }
 .header > div {
     margin: 15px 5px 15px 5px;
 }
-.header__main {
-    border: 2px solid black ;
-    border-radius: 10%;
-    padding: 12px;
-}
 .header__popular {
-    border: 2px solid black ;
-    border-radius: 10%;
-    padding: 12px;
     color:black;
 }
 audio{
