@@ -1,0 +1,83 @@
+@import "vars.css";
+
+ *  {
+    margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+    background-image: url(musicgirl2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 50% 50%;
+    color: var(--text-color_main);
+
+}
+.header__logo_elem{
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+}
+.header{
+    display: flex;
+    font-size: 25px;    
+}
+.header > div {
+    margin: 15px 5px 15px 5px;
+}
+.header__main {
+    border: 2px solid black ;
+    border-radius: 10%;
+    padding: 12px;
+}
+.header__popular {
+    border: 2px solid black ;
+    border-radius: 10%;
+    padding: 12px;
+    color:black;
+}
+audio{
+    border-radius: 10%;
+}
+.container{
+    display:flex;
+    color: blue;
+}
+.container__list1{
+    font-size: 25px;
+    display: grid;
+}
+.container__list2{
+    font-size: 25px;
+    display: grid;
+    margin-left: 10px;
+}
+.page {
+    margin: 0 auto;
+}
+@media (min-width: 576px) {    
+.page {
+max-width: 540px;
+}
+}
+@media (min-width: 768px) {
+.page {
+max-width: 720px;
+}
+}
+@media (min-width: 992px) {
+.page {
+max-width: 960px;
+}
+}
+@media (min-width: 1200px) {
+.page {
+max-width: 1140px;
+}
+}
+@media (min-width: 1400px) {
+.page {
+max-width: 1320px;
+}
+}
